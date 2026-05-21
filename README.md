@@ -274,7 +274,7 @@ Output format in `extractions.jsonl` preserves full multi-value records and evid
 Example smoke test:
 
 ```bash
-python Phase2/extract_schema_values.py \
+python extract_schema_values.py \
   --pdf_dir data/phase2_pdfs \
   --schema_path runs/chem/cof_iterative/final_schemas/final_schema.json \
   --out_dir outputs/phase2_extractions \
@@ -285,7 +285,7 @@ python Phase2/extract_schema_values.py \
 If the corpus may contain retrieval noise, optionally rank papers by schema relevance before extraction:
 
 ```bash
-python Phase2/extract_schema_values.py \
+python extract_schema_values.py \
   --pdf_dir data/phase2_pdfs \
   --schema_path runs/chem/cof_iterative/final_schemas/final_schema.json \
   --out_dir outputs/phase2_extractions \
