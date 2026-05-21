@@ -46,6 +46,20 @@ README.md
 
 Generated outputs, downloaded PDFs, local configs, and real `.env` files should not be committed.
 
+## Input data
+
+This public repository does not include downloaded publisher PDFs or paper corpora.
+
+Users should create local folders such as:
+
+```text
+data/seeds_COF/
+data/seeds_MOF/
+data/seeds_ZIF/
+data/seeds_ad/
+data/seeds_prompt/
+data/phase2_pdfs/
+
 ## Setup
 
 Create a Python environment and install dependencies:

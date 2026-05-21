@@ -39,3 +39,5 @@ tests/
 
 # notebooks/checkpoints
 .ipynb_checkpoints/
+data/*
+!data/README.md
