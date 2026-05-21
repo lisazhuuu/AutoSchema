@@ -1,0 +1,18 @@
+# AutoSchema non-secret configuration example.
+# Copy to config/config.yaml for local overrides. Do not put API keys here.
+
+provider: azure_openai              # azure_openai | openai
+
+# Chat model/deployment
+chat_model: gpt-5.4                 # used when provider=openai
+chat_deployment: gpt-5.4            # used when provider=azure_openai
+chat_version: 2024-12-01-preview
+
+# Embeddings
+embedding_model: text-embedding-3-large
+embedding_deployment: text-embedding-3-large
+embedding_version: 2024-12-01-preview
+
+# Local output defaults
+output_dir: output
+text_dir: output/texts

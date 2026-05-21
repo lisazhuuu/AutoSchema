@@ -1,0 +1,41 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# local configs
+config/*.yaml
+config/*.yml
+!config/*.example.yaml
+!config/*.example.yml
+
+# virtual env
+.venv/
+venv/
+env/
+
+# python/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS/editor noise
+.DS_Store
+__MACOSX/
+
+# generated outputs
+output/
+outputs/
+runs/
+tests/
+
+# large/intermediate data
+**/downloads/
+**/cumulative_corpus/
+**/_retrieve_work/
+**/_qgen_work/
+**/_topoff_work*/
+**/texts/
+
+# notebooks/checkpoints
+.ipynb_checkpoints/
