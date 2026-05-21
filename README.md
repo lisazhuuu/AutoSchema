@@ -32,9 +32,8 @@ config/
 expand_lib/
 prompt_lib/
 schema_lib/
-Phase2/
-  extract_schema_values.py
-  extract_lib/
+extract_schema_values.py
+extract_lib/
 expand_round.py
 prompt_pipeline.py
 design_extraction_prompt.py
