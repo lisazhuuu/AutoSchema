@@ -1,0 +1,7 @@
+openai>=1.0
+python-dotenv
+PyMuPDF
+pypdf
+PyYAML
+requests
+arxiv
