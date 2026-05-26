@@ -1,5 +1,7 @@
 # AutoSchema Artifact
 
+[![DOI](https://zenodo.org/badge/1245911439.svg)](https://doi.org/10.5281/zenodo.20387053)
+
 This repository contains the public camera-ready artifact for **AutoSchema: Self-Prompted Schema Induction and Evidence-Grounded Extraction**.
 
 It includes:
@@ -337,3 +339,13 @@ Downloaded publisher PDFs are intentionally excluded from the public artifact be
 ## Notes for reproducing paper-scale behavior
 
 Exact schema fields and corpus composition may vary with seed PDFs, source availability, API rate limits, and retrieval noise. The artifact supports the same overall workflow, but public API availability may affect the exact number of downloaded PDFs in a given run.
+
+## Citation / Artifact DOI
+
+This repository contains the code artifact for the KDD 2026 paper:
+
+**AutoSchema: Self-Prompted Schema Induction and Evidence-Grounded Extraction for Materials Science Literature**
+
+The archived KDD 2026 artifact release is available on Zenodo:
+
+https://doi.org/10.5281/zenodo.20387054
