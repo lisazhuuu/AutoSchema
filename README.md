@@ -2,10 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/1245911439.svg)](https://doi.org/10.5281/zenodo.20387053)
 
-📄 **Paper:** [AutoSchema: Self-Prompted Schema Induction and Evidence-Grounded Extraction for Materials Science Literature](./AutoSchema_KDD2026.pdf)
-
 **Official DOI:** https://doi.org/10.1145/3770855.3817812  
 (The ACM DOI has been assigned but may not be active until the proceedings are published.)
+
+📄 **Paper:** [AutoSchema: Self-Prompted Schema Induction and Evidence-Grounded Extraction for Materials Science Literature](./AutoSchema_KDD2026.pdf)
 
 This is the authors' accepted version. The definitive Version of Record will be available through ACM Digital Library:
 https://doi.org/10.1145/3770855.3817812
